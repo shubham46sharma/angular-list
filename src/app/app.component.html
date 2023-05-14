@@ -8,5 +8,5 @@
 
 
 <section id = "main">
-  <app-home [ninja]="ninja">ng content directive test</app-home>
+  <app-home [ninja]="ninja" (onYell)="yell($event)">ng content directive test</app-home>
 </section>
