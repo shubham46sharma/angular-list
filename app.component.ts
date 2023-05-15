@@ -10,7 +10,11 @@ export class AppComponent {
   name = 'ninja';
   ninja = {
     name: "Shubham",
-    belt: "Black, Red, Gold, All the the fucking belts!!!!!!!!!"
+    belt: "Black, Red, Gold, All the the fucking belts!!!"
   }
+yell(e:any){
+  alert("I am yelling!")
+}
+
 }
   
