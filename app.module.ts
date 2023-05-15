@@ -10,7 +10,7 @@ import { DirectoryComponent } from './directory/directory.component';
 
 
 const routes: Routes = [
-  {path: 'directory', component: DirectoryComponent},
+  {path: 'directory/:name', component: DirectoryComponent},
   {path: '', component: HomeComponent}
 ];
 
